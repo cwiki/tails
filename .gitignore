@@ -1,0 +1,39 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Byte-compiled files
+*.pyc
+
+# Virtual environment directory
+.env/
+
+# Poetry virtual environment
+.poetry/
+
+# local poetry cache
+.poetry-cache/
+
+# JetBrains IDE project files
+.idea/
+
+# Django settings file
+*.settings
+
+# Python log files
+*.log
+
+# Dependency management file
+poetry.lock
+
+# Directory for static files
+static/
+
+# Directory for media files
+media/
+
+# SQLite database file
+db.sqlite3
+
+# Environment variables file
+.env

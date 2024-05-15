@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tails"
+version = "0.1.0"
+description = ""
+authors = ["Cody Wikman <cody@wikwebdev.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django-tailwind = "^3.8.0"
+django-htmx = "^1.17.3"
+django-extensions = "^3.2.3"
+django = "^5.0.6"
+django-browser-reload = "^1.12.1"
+django-silk = "^5.1.0"
+
+[tool.poetry.group.dev.dependencies]
+factory-boy = "^3.3.0"
+pytest = "^8.2.0"
+pytest-factoryboy = "^2.7.0"
+Faker = "^25.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
